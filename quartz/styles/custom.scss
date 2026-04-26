@@ -1,3 +1,57 @@
 @use "./base.scss";
+// Texto principal más grande y con más aire
+article {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  max-width: 680px;
+}
 
-// put your custom CSS here!
+// Títulos con más presencia
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+// Párrafos con espacio generoso
+p {
+  margin-bottom: 1.4rem;
+}
+
+// Barra lateral izquierda más estrecha y aireada
+.left.sidebar {
+  padding-top: 2rem;
+}
+
+// Nombre del sitio más grande
+.page-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+// Links con subrayado suave
+a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+// Ancho de página más generoso
+.center {
+  max-width: 780px;
+}// put your custom CSS here!

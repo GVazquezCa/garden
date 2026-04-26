@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "gabriela vázquez",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -20,39 +20,39 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
-      typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
-      },
-      colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
-    },
+  fontOrigin: "googleFonts",
+  cdnCaching: true,
+  typography: {
+    header: "Lora",
+    body: "Source Serif 4",
+    code: "IBM Plex Mono",
   },
+  colors: {
+    lightMode: {
+      light: "#faf7f2",
+      lightgray: "#ede5d8",
+      gray: "#b5a08a",
+      darkgray: "#5c4a32",
+      dark: "#2d2010",
+      secondary: "#6b5c3e",
+      tertiary: "#7a9e7e",
+      highlight: "rgba(181, 160, 138, 0.15)",
+      textHighlight: "#f0e0c088",
+    },
+    darkMode: {
+      light: "#1e1a14",
+      lightgray: "#2e2820",
+      gray: "#6b5c3e",
+      darkgray: "#c8b89a",
+      dark: "#f0e8d8",
+      secondary: "#a8c5a0",
+      tertiary: "#7a9e7e",
+      highlight: "rgba(107, 92, 62, 0.25)",
+      textHighlight: "#6b5c3e55",
+      },
+  },
+  },
+},
   plugins: {
     transformers: [
       Plugin.FrontMatter(),

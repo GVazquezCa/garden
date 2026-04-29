@@ -1,57 +1,80 @@
 @use "./base.scss";
+
+// Fondo crema uniforme en toda la página
+body {
+  background-color: #faf7f2;
+}
+
+.page {
+  background-color: #faf7f2;
+}
+
+.center {
+  background-color: #faf7f2;
+  max-width: 780px;
+}
+
+.left.sidebar, .right.sidebar {
+  background-color: #faf7f2;
+}
+
 // Texto principal más grande y con más aire
 article {
-  font-size: 1.1rem;
-  line-height: 1.85;
-  max-width: 680px;
+  font-size: 1.2rem;
+  line-height: 2;
+  max-width: 660px;
+}
+
+// Párrafos con espacio muy generoso
+p {
+  margin-bottom: 1.8rem;
 }
 
 // Títulos con más presencia
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.2;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  margin-top: 3rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: -0.01em;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-top: 2rem;
-}
-
-// Párrafos con espacio generoso
-p {
-  margin-bottom: 1.4rem;
-}
-
-// Barra lateral izquierda más estrecha y aireada
-.left.sidebar {
-  padding-top: 2rem;
-}
-
-// Nombre del sitio más grande
-.page-title {
   font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+// Más aire en la barra lateral
+.left.sidebar {
+  padding-top: 3rem;
+  padding-right: 1.5rem;
+}
+
+// Nombre del sitio
+.page-title {
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: -0.02em;
+  margin-bottom: 2rem;
 }
 
 // Links con subrayado suave
 a {
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
   text-decoration-thickness: 1px;
 }
 
-// Ancho de página más generoso
-.center {
-  max-width: 780px;
-}// put your custom CSS here!
+// Más padding general en el contenido
+.popover-hint {
+  padding-top: 2rem;
+}

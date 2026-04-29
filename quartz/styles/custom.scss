@@ -1,47 +1,55 @@
 @use "./base.scss";
 
+// Variables de color 
+:root {
+  --color-cream: #f6f5f1;
+  --color-black: #353534;
+}
+
 // Fondo crema uniforme en toda la página
+body, .page, .center, .left.sidebar, .right.sidebar {
+  background-color: var(--color-cream) !important;
+}
+
+// Color de texto
 body {
-  background-color: #faf7f2;
+  color: var(--color-black);
+  text-rendering: optimizeSpeed;
 }
 
-.page {
-  background-color: #faf7f2;
+// Tipografía fluida entre 20px y 22px según el ancho de pantalla
+article, .page {
+  font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.375rem);
+  line-height: 1.8;
 }
 
-.center {
-  background-color: #faf7f2;
-  max-width: 780px;
-}
-
-.left.sidebar, .right.sidebar {
-  background-color: #faf7f2;
-}
-
-// Texto principal más grande y con más aire
+// Ancho de contenido generoso
 article {
-  font-size: 1.2rem;
-  line-height: 2;
   max-width: 660px;
 }
 
-// Párrafos con espacio muy generoso
+.center {
+  max-width: 800px;
+}
+
+// Párrafos con mucho aire
 p {
   margin-bottom: 1.8rem;
 }
 
-// Títulos con más presencia
+// Títulos
 h1 {
-  font-size: 2.4rem;
+  font-size: clamp(1.8rem, 1.5rem + 1.5vw, 2.6rem);
   font-weight: 600;
   letter-spacing: -0.02em;
-  line-height: 1.2;
+  line-height: 1.15;
   margin-bottom: 0.75rem;
   margin-top: 3rem;
+  color: var(--color-black);
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: clamp(1.3rem, 1.1rem + 0.8vw, 1.7rem);
   font-weight: 600;
   letter-spacing: -0.01em;
   margin-top: 3rem;
@@ -49,12 +57,12 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: clamp(1.1rem, 1rem + 0.4vw, 1.35rem);
   font-weight: 500;
   margin-top: 2.5rem;
 }
 
-// Más aire en la barra lateral
+// Barra lateral con aire
 .left.sidebar {
   padding-top: 3rem;
   padding-right: 1.5rem;
@@ -68,13 +76,13 @@ h3 {
   margin-bottom: 2rem;
 }
 
-// Links con subrayado suave
+// Links
 a {
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
 }
 
-// Más padding general en el contenido
+// Padding superior del contenido
 .popover-hint {
   padding-top: 2rem;
 }

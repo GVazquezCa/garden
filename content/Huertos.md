@@ -1,4 +1,8 @@
---- title: "Huertos" date: 2026-04-29 tags: [jardín, naturaleza, conocimiento, seedling] --- 
+--- 
+title: "Huertos" 
+date: 2026-04-29 
+tags: [jardín, naturaleza, seedling] 
+--- 
 Robin Wall Kimmerer dice que los jardines son a la vez una cuestión material y espiritual. Son una interfaz física de nuestra relación con la naturaleza. Algo así como la respiración, que es a la vez corporal y emocional.
 
 Un jardín, o un huerto, pueden ser un primer lugar donde empezar a cultivar otra manera de relacionarse con el entorno. Y a la vez, el estado en el que están los jardines que cuidamos puede decirnos mucho sobre el papel que estamos jugando en esa relación.

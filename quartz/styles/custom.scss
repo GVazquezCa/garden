@@ -41,7 +41,9 @@ h1 {
   color: #353534;
 }
 
-tbody, li, p {
-  line-height: 2 !important;
+article p,
+article li,
+article tbody {
+  line-height: 44px !important;
 }
 // ─── H2 — serif medio ──────────────

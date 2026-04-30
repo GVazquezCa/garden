@@ -42,7 +42,8 @@ h1 {
 }
 * {
   line-height: 44px !important;
-}
-aside {
-  display: none !important;
+// ─── Sidebar izquierda no pegajosa ─────────────────────
+.left {
+  position: relative !important;
+  align-self: flex-start !important;
 }

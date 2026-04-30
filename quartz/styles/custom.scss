@@ -43,3 +43,9 @@ h1 {
 * {
   line-height: 44px !important;
 }
+// ─── Sidebars no pegajosas ──────────────────────────────
+.sidebar.left,
+.sidebar.right {
+  position: relative !important;
+  top: unset !important;
+}

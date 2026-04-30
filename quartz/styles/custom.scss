@@ -43,8 +43,6 @@ h1 {
 * {
   line-height: 44px !important;
 }
-// ─── Ocultar barras laterales ───────────────────────────
-.left.sidebar,
-.right.sidebar {
+aside {
   display: none !important;
 }

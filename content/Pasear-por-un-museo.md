@@ -1,6 +1,7 @@
 ---
 title: Pasear por un museo como quien pasea por el bosque
 date: 2026-11-09
+estado: 🌿 Brote
 tags:
   - museos
   - ensayo

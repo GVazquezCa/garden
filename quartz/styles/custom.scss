@@ -167,4 +167,16 @@ article tbody {
   color: #73706d;
   margin-bottom: 2rem;
   margin-top: -0.5rem;
+  // ─── Excluir flechas en tags ────────────────────────────
+.tags li::before,
+.tag-container li::before {
+  content: none !important;
+}
+// ─── Nombre del sitio en oscuro ─────────────────────────
+.page-title a {
+  color: #353534;
+  &:hover {
+    color: #00758f;
+  }
+}
 }

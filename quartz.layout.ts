@@ -23,7 +23,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.TagList(),
     Component.ConditionalRender({
       component: Component.RecentNotes({ title: "Entradas", limit: 10 }),
       condition: (page) => page.fileData.slug === "index",
@@ -44,6 +43,9 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [],
+  afterBody: [
+    Component.TagList(),
+  ],
 }
 
 // components for pages that display lists of pages (e.g. tags or folders)

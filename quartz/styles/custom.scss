@@ -290,4 +290,66 @@ article tbody {
   .nav-active {
     color: #353534 !important;
   }
+  // ─── Garden Home ────────────────────────────────────────
+.garden-intro {
+  margin-bottom: 3rem;
+}
+
+.garden-titulo {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.garden-descripcion {
+  font-size: 0.95rem;
+  color: #8e8f94;
+  line-height: 1.6 !important;
+  margin-bottom: 0;
+}
+
+.garden-columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.garden-col-titulo {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #353534 !important;
+  display: block;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #d3d3d1;
+  padding-bottom: 0.5rem;
+}
+
+.garden-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding-left: 0 !important;
+    margin-bottom: 0.75rem;
+    &::before { content: none !important; }
+
+    a {
+      font-family: "Lato", sans-serif;
+      font-size: 1rem;
+      color: #353534 !important;
+      &:hover { color: #960462 !important; }
+    }
+  }
+}
+
+.garden-vacio {
+  color: #afb0b6;
+  font-style: italic;
+  font-size: 0.9rem;
+}
 }

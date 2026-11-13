@@ -17,20 +17,20 @@ export const sharedPageComponents: SharedLayout = {
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.NoteHeader(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
-    Component.ConditionalRender({
-      component: Component.NoteFechas(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ConditionalRender({
-      component: Component.RecentNotes({ title: "Entradas", limit: 10 }),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-  ],
+  Component.ArticleTitle(),
+  Component.ConditionalRender({
+    component: Component.GardenHome(),
+    condition: (page) => page.fileData.slug === "index",
+  }),
+  Component.ConditionalRender({
+    component: Component.NoteHeader(),
+    condition: (page) => page.fileData.slug !== "index",
+  }),
+  Component.ConditionalRender({
+    component: Component.NoteFechas(),
+    condition: (page) => page.fileData.slug !== "index",
+  }),
+],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),

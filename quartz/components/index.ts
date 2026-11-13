@@ -26,6 +26,7 @@ import ConditionalRender from "./ConditionalRender"
 import NoteHeader from "./NoteHeader"
 import NoteFechas from "./NoteFechas"
 import NavMenu from "./NavMenu"
+import GardenHome from "./GardenHome"
 
 export {
   ArticleTitle,
@@ -55,5 +56,6 @@ export {
   ConditionalRender,
   NoteHeader,
   NoteFechas,
-  NavMenu
+  NavMenu,
+  GardenHome
 }

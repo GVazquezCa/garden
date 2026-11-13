@@ -16,7 +16,7 @@ body {
   line-height: 2 !important;
 }
 
-// ─── Tipografía fluida (20px móvil → 22px escritorio) ──
+// ─── Tipografía fluida ──────────────────────────────────
 article,
 .page-content {
   font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.375rem);
@@ -31,14 +31,36 @@ p {
   line-height: 2 !important;
 }
 
+// ─── Primera letra grande (drop cap) ───────────────────
+article > p:first-of-type::first-letter {
+  font-size: 3.8em;
+  font-weight: 600;
+  line-height: 0.85;
+  float: left;
+  margin-right: 0.08em;
+  margin-top: 0.05em;
+  color: #353534;
+}
+
 // ─── H1 — serif grande ─────────────────────────────────
 h1 {
   font-size: clamp(2.93rem, 2.5rem + 2vw, 3.5rem);
   font-weight: 600;
   line-height: 1.1;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
   margin-top: 0;
   color: #353534;
+}
+
+// ─── Subtítulo (campo descripcion del frontmatter) ─────
+// Se añade manualmente como párrafo en cursiva justo tras el título
+.page-description {
+  font-size: 1.1rem;
+  color: #8e8f94;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  line-height: 1.5 !important;
 }
 
 // ─── H2 — serif medio ──────────────────────────────────
@@ -62,7 +84,7 @@ h3 {
   color: #4a4a46;
 }
 
-// ─── Blockquote — serif centrado con líneas grises ─────
+// ─── Blockquote ────────────────────────────────────────
 blockquote {
   font-size: clamp(1.5rem, 1.3rem + 0.9vw, 2.25rem);
   line-height: 1.4;
@@ -106,11 +128,75 @@ ul li {
   }
 }
 
+// ─── Excluir flechas en tags y navegación ──────────────
+.tags li::before,
+.tag-container li::before,
+nav li::before {
+  content: none !important;
+}
+
+// ─── Tags — sin # ni flechas, en granate ───────────────
+.tags ul,
+.tag-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.tags li,
+.tag-container li {
+  padding-left: 0 !important;
+
+  a {
+    color: #960462;
+    font-family: "Lato", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+
+    &::before {
+      content: none !important;
+    }
+
+    &:hover {
+      color: #00758f;
+    }
+  }
+}
+
+// ─── Cabecera de entrada — tipo, estado, línea ─────────
+.content-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #d3d3d1;
+  border-bottom: 1px solid #d3d3d1;
+  padding: 0.75rem 0;
+  margin-bottom: 2.5rem;
+  margin-top: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 0.85rem;
+  color: #8e8f94;
+}
+
 // ─── Enlaces ────────────────────────────────────────────
 a {
   color: #960462;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: #00758f;
+  }
+}
+
+// ─── Nombre del sitio en oscuro ─────────────────────────
+.page-title a {
+  color: #353534;
 
   &:hover {
     color: #00758f;
@@ -154,29 +240,4 @@ article p,
 article li,
 article tbody {
   line-height: 44px !important;
-}
-
-// ─── Estado de la nota ──────────────────────────────────
-.note-estado {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4em;
-  font-family: "Lato", sans-serif;
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: #73706d;
-  margin-bottom: 2rem;
-  margin-top: -0.5rem;
-  // ─── Excluir flechas en tags ────────────────────────────
-.tags li::before,
-.tag-container li::before {
-  content: none !important;
-}
-// ─── Nombre del sitio en oscuro ─────────────────────────
-.page-title a {
-  color: #353534;
-  &:hover {
-    color: #00758f;
-  }
-}
 }

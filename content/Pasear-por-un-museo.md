@@ -1,13 +1,15 @@
 ---
 title: Pasear por un museo como quien pasea por el bosque
 date: 2026-11-09
+descripcion: No hace falta entender todo todo el rato
+tipo: ensayo
+estado: brote
 tags:
   - museos
   - ensayo
   - atención
 draft: false
 ---
-estado: 🌿 Brote
 
 Siempre he ido a los museos como tratando de entrar en un club. Estoy hablando sobre todo de museos de pintura pero se aplica a casi todos los que no son evidentes. ("El museo de la máquina de vapor" o "el museo de la filigrana de plata" son mucho más amables en este sentido.)
 

@@ -23,7 +23,6 @@ Me he desentendido del club y he renunciado a todas las ventajas que suponía qu
 
 Creo que la clave ha sido dejar pasar las expectativas de "aprovechar el tiempo". El anhelo productivista de salir de ahí mejor persona. Ahora me paseo por las alas como quien pasea por el bosque, sin folleto ni audioguía, dejando que mi cuerpo reaccione a lo que quiera reaccionar.
 
----
 
 Por mi trabajo y por vivir en el sitio con las peores comunicaciones de España, suelo pasar bastantes horas muertas en ciudades intermedias. Así que he empezado a hacer esto en los benditos museos municipales, que suelen ser gratis y, por tanto, estar casi vacíos.
 
@@ -35,6 +34,5 @@ El otro día, en vez de hacer tiempo en Atocha, fui al Prado, y decidí desde el
 
 Fui a ver lo que quería ver y el resto del tiempo me dediqué a pasear. Dejé que me impresionara lo que me tenía que impresionar. Me senté un rato cuando algo me daba más curiosidad (o cuando me dolían los pies) y me fui cuando la neblina dejó de hacerlo interesante. Como en un bosque no le vi sentido a verlo todo, a identificar cada especie ni a preguntarme por qué está aquí este roble milenario. Disfruté de ser un animalillo caminando entre los árboles y me fui.
 
----
 
 Hay algo que se me gira internamente en situaciones en las que puedo renunciar al control y, a la vez, seguir sintiéndome segura. Algo que pasa a verse desde otro prisma. La luz cambia, la densidad del aire cambia. Me pregunto en qué más sitios podría dejar de intentar entrar en clubs cuyas ventajas están mayoritariamente en mi cabeza.

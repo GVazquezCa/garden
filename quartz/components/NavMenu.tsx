@@ -11,13 +11,13 @@ export default (() => {
     ]
 
     return (
-      <nav class="nav-menu">
+      <div class="nav-menu">
         {links.map(({ name, url }) => (
           <a href={url} class={currentSlug === url.replace(/^\//, "") ? "nav-active" : ""}>
             {name}
           </a>
         ))}
-      </nav>
+      </div>
     )
   }
 

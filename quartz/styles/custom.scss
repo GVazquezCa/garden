@@ -52,17 +52,6 @@ h1 {
   color: #353534;
 }
 
-// ─── Subtítulo (campo descripcion del frontmatter) ─────
-// Se añade manualmente como párrafo en cursiva justo tras el título
-.page-description {
-  font-size: 1.1rem;
-  color: #8e8f94;
-  font-style: italic;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
-  line-height: 1.5 !important;
-}
-
 // ─── H2 — serif medio ──────────────────────────────────
 h2 {
   font-size: clamp(1.5625rem, 1.4rem + 0.8vw, 1.875rem);
@@ -168,19 +157,9 @@ nav li::before {
   }
 }
 
-// ─── Cabecera de entrada — tipo, estado, línea ─────────
+// ─── Ocultar ContentMeta (fecha y tiempo de lectura) ───
 .content-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 1px solid #d3d3d1;
-  border-bottom: 1px solid #d3d3d1;
-  padding: 0.75rem 0;
-  margin-bottom: 2.5rem;
-  margin-top: 1.5rem;
-  font-family: "Lato", sans-serif;
-  font-size: 0.85rem;
-  color: #8e8f94;
+  display: none !important;
 }
 
 // ─── Enlaces ────────────────────────────────────────────
@@ -240,6 +219,8 @@ article p,
 article li,
 article tbody {
   line-height: 44px !important;
+}
+
 // ─── NoteHeader ─────────────────────────────────────────
 .note-header {
   margin-bottom: 1rem;
@@ -248,8 +229,8 @@ article tbody {
 .note-meta-top {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
+  gap: 0.4rem;
+  margin-bottom: 0.25rem;
   font-family: "Lato", sans-serif;
   font-size: 0.85rem;
 }
@@ -261,37 +242,16 @@ article tbody {
   font-weight: 500;
 }
 
-.note-estado {
-  color: #7a9e7e;
-  font-weight: 400;
-}
-
-.note-fechas {
-  display: flex;
-  gap: 1.5rem;
-  font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
-  color: #afb0b6;
-  margin-bottom: 1.5rem;
-}
-// ─── Ocultar ContentMeta (fecha y tiempo de lectura) ───
-.content-meta {
-  display: none !important;
-}
-
-// ─── NoteHeader ajustes ─────────────────────────────────
-.note-meta-top {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-bottom: 0.25rem;
-}
-
 .note-tipo::after {
   content: ", estado:";
   color: #8e8f94;
   font-weight: 400;
   margin-left: 0.1rem;
+}
+
+.note-estado {
+  color: #7a9e7e;
+  font-weight: 400;
 }
 
 .note-fechas {
@@ -303,5 +263,4 @@ article tbody {
   color: #afb0b6;
   margin-bottom: 1.5rem;
   gap: 0.1rem;
-}
 }

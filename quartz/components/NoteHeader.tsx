@@ -21,23 +21,14 @@ export default (() => {
 
     const estado = fm.estado ? estados[fm.estado.toLowerCase()] : null
     const tipo = fm.tipo ? (tipos[fm.tipo.toLowerCase()] ?? fm.tipo) : null
-    const fecha = fileData.dates?.created
-    const podado = fileData.dates?.modified
 
-    const formatDate = (d: Date) =>
-      d.toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" })
+    if (!tipo && !estado) return null
 
     return (
       <div class="note-header">
-        {(tipo || estado) && (
-          <div class="note-meta-top">
-            {tipo && <span class="note-tipo">{tipo}</span>}
-            {estado && <span class="note-estado">{estado}</span>}
-          </div>
-        )}
-        <div class="note-fechas-bar">
-          {fecha && <span>Plantado el {formatDate(fecha)}</span>}
-          {podado && <span>Podado por última vez el {formatDate(podado)}</span>}
+        <div class="note-meta-top">
+          {tipo && <span class="note-tipo">{tipo}</span>}
+          {estado && <span class="note-estado">{estado}</span>}
         </div>
       </div>
     )

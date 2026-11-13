@@ -21,6 +21,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ConditionalRender({
+      component: Component.NoteFechas(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
       component: Component.RecentNotes({ title: "Entradas", limit: 10 }),
       condition: (page) => page.fileData.slug === "index",
     }),

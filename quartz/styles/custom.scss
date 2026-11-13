@@ -274,4 +274,34 @@ article tbody {
   color: #afb0b6;
   margin-bottom: 1.5rem;
 }
+// ─── Ocultar ContentMeta (fecha y tiempo de lectura) ───
+.content-meta {
+  display: none !important;
+}
+
+// ─── NoteHeader ajustes ─────────────────────────────────
+.note-meta-top {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.note-tipo::after {
+  content: ", estado:";
+  color: #8e8f94;
+  font-weight: 400;
+  margin-left: 0.1rem;
+}
+
+.note-fechas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  color: #afb0b6;
+  margin-bottom: 1.5rem;
+  gap: 0.1rem;
+}
 }

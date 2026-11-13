@@ -35,12 +35,10 @@ export default (() => {
             {estado && <span class="note-estado">{estado}</span>}
           </div>
         )}
-        {(fecha || podado) && (
-          <div class="note-fechas">
-            {fecha && <span>Plantado el {formatDate(fecha)}</span>}
-            {podado && <span>Podado por última vez el {formatDate(podado)}</span>}
-          </div>
-        )}
+        <div class="note-fechas-bar">
+          {fecha && <span>Plantado el {formatDate(fecha)}</span>}
+          {podado && <span>Podado por última vez el {formatDate(podado)}</span>}
+        </div>
       </div>
     )
   }

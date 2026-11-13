@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import NoteHeader from "./NoteHeader"
 import NoteFechas from "./NoteFechas"
+import NavMenu from "./NavMenu"
 
 export {
   ArticleTitle,
@@ -54,4 +55,5 @@ export {
   ConditionalRender,
   NoteHeader,
   NoteFechas
+  NavMenu
 }

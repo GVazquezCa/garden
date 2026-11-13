@@ -267,4 +267,26 @@ article tbody {
   margin-top: 1.5rem;
   margin-bottom: 2.5rem;
 
+// ─── Menú de navegación ─────────────────────────────────
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  padding: 1rem 0;
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+
+  a {
+    color: #8e8f94;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    &:hover { color: #353534; }
+  }
+
+  .nav-active {
+    color: #353534;
+  }
+}
 }

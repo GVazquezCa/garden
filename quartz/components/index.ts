@@ -54,6 +54,6 @@ export {
   Flex,
   ConditionalRender,
   NoteHeader,
-  NoteFechas
+  NoteFechas,
   NavMenu
 }

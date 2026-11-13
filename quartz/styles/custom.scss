@@ -272,21 +272,22 @@ article tbody {
   display: flex;
   gap: 2rem;
   justify-content: flex-end;
-  padding: 1rem 0;
+  width: 100%;
+  padding: 1.5rem 0 0.5rem 0;
   font-family: "Lato", sans-serif;
-  font-size: 0.9rem;
-  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
 
   a {
-    color: #8e8f94;
+    color: #8e8f94 !important;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
-    &:hover { color: #353534; }
+    &:hover { color: #353534 !important; }
   }
 
   .nav-active {
-    color: #353534;
+    color: #353534 !important;
   }
 }
 }

@@ -240,4 +240,38 @@ article p,
 article li,
 article tbody {
   line-height: 44px !important;
+// ─── NoteHeader ─────────────────────────────────────────
+.note-header {
+  margin-bottom: 1rem;
+}
+
+.note-meta-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 0.85rem;
+}
+
+.note-tipo {
+  color: #8e8f94;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.note-estado {
+  color: #7a9e7e;
+  font-weight: 400;
+}
+
+.note-fechas {
+  display: flex;
+  gap: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  color: #afb0b6;
+  margin-bottom: 1.5rem;
+}
 }

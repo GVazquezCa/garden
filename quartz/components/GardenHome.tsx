@@ -27,12 +27,7 @@ export default (() => {
           <div class="garden-col">
             <a href="/ensayos" class="garden-col-titulo">Ensayos →</a>
             <ul class="garden-lista">
-              {ensayos.length === 0 && <li class="garden-vacio">Próximamente</li>}
-              {ensayos.map((f) => (
-                <li>
-                  <a href={`/${f.slug}`}>{f.frontmatter?.title ?? f.slug}</a>
-                </li>
-              ))}
+              <li class="garden-vacio">Próximamente</li>
             </ul>
           </div>
 
@@ -45,6 +40,27 @@ export default (() => {
                   <a href={`/${f.slug}`}>{f.frontmatter?.title ?? f.slug}</a>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          <div class="garden-col">
+            <a href="/audiovisual" class="garden-col-titulo">Audiovisual →</a>
+            <ul class="garden-lista">
+              <li class="garden-vacio">Próximamente</li>
+            </ul>
+          </div>
+
+          <div class="garden-col">
+            <a href="/inputs" class="garden-col-titulo">Inputs →</a>
+            <ul class="garden-lista">
+              <li class="garden-vacio">Próximamente</li>
+            </ul>
+          </div>
+
+          <div class="garden-col">
+            <a href="/garabatos" class="garden-col-titulo">Garabatos →</a>
+            <ul class="garden-lista">
+              <li class="garden-vacio">Próximamente</li>
             </ul>
           </div>
         </div>

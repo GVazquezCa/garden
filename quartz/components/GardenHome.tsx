@@ -23,7 +23,7 @@ export default (() => {
           </p>
         </div>
 
-        <div class="garden-columnas">
+        <div class="garden-columnas" style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
           <div class="garden-col">
             <a href="/ensayos" class="garden-col-titulo">Ensayos →</a>
             <ul class="garden-lista">

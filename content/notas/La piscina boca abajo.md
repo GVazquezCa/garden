@@ -1,38 +1,36 @@
 ---
-title: Pasear por un museo como quien pasea por el bosque
-date: 2026-11-09
-descripcion: No hace falta entender todo todo el rato
+title: La piscina boca abajo
+date: 2026-11-17
+descripcion: Innovación, reconocimiento y pallets
 tipo: ensayo
 estado: brote
 tags:
-  - museos
-  - ensayo
-  - atención
+  - pueblo
+  - woke
+  - deuda rural-urbana
 draft: false
 ---
 
-Siempre he ido a los museos como tratando de entrar en un club. Estoy hablando sobre todo de museos de pintura pero se aplica a casi todos los que no son evidentes. ("El museo de la máquina de vapor" o "el museo de la filigrana de plata" son mucho más amables en este sentido.)
+Las huertas que hay en las afueras de mi pueblo son un himno al "upcycling", la práctica que, a diferencia del "recycling" (reciclar), busca reutilizar cosas en lugar de tirarlas, evitando el consumo extra de recursos para procesar un residuo y construir un objeto nuevo.
 
-Por lo general entrar en el museo me coloca frente a un montón de objetos de muchísimo valor económico y cultural, algunos de los cuales son…¿meh?
+Es un "upcycling", además, especialmente bien hecho, porque genera objetos útiles y necesarios: los clásicos somieres que hacen de puerta metálica, cientos de recipientes de todo tipo recortados para alojar nuevos continentes o, mi favorito, una antigua piscina de plástico duro dada la vuelta que funciona como techo de un cobertizo. 
 
-Así que mi actitud suele ser la de tratar de "entender", tratar de descifrar la pregunta de "¿qué hace esto tan especial como para que la gente que sabe lo haya puesto en este lugar privilegiado?" Como la gente que sabe lleva décadas escrutando estas preguntas por delante y por detrás y, al parecer, ha concluido que no hay respuestas o que no tienen que estar a la vista, este modus operandi siempre me ha resultado frustrante y extenuante.
+Se diferencia de mucho upcycling cuqui que puedes ver por internet, en el que parece que alguien casi haya generado esos residuos a posta. ¿Quién tiene cien cucharillas de plástico por casa para hacer una lámpara? ¿No sería mejor haber usado cien veces una cucharilla normal y dejar la lámpara desnuda?
 
-Aunque no recuerdo haberlo decidido expresamente, últimamente me he bajado de este carro: de leer las cartelas para que me den alguna pista, de mirar la Wikipedia, de leer los típicos libros "para entender el arte" de la tienda de regalos…
+El caso es que, aunque no he preguntado (porque ya bastante rara parezco de por sí), me la jugaría a que ninguno de los señores* de mi pueblo saben lo que es el upcycling o, en la versión más moderna y potenciada por la UE, la economía circular. Este paisaje agroecológico postapocalíptico no viene de un proyecto de innovación, sino de unos valores que nunca han llegado a perderse: aprovecha lo que ya tienes, utiliza tus múltiples habilidades, no gastes si no hace falta, y gasta tiempo antes que dinero. Todos estos valores estaban presentes en el sentido común por los siglos de los siglos y fueron sustituidos por valores diferentes al llegar la modernización agrícola: compra siempre lo último, especialízate, utiliza el dinero para sustituir cada vez más partes de tu trabajo y poder abarcar más tierra, etc.
 
-Me he desentendido del club y he renunciado a todas las ventajas que suponía que me daría el carnet (identidad, pertenencia, estatus y una sensación tranquilizadora de certeza). He empezado a plantearme un museo como "una habitación llena de cosas bonitas (o intrigantes, o enigmáticas, o provocadoras, o problemáticas), en la que pasar un rato". Quiero decir, hace poco estuve en un museo en el que una de las salas era un montón de pupitres con un montón de televisores y radios antiguas encima. Aunque sigo sin tener ni idea de qué iba la vaina, lo cierto es que nunca había estado en una habitación como esta. Eso resultaba mucho más divertido que estar en cualquier otra habitación en la que pudiera haber estado en ese momento.
+Algunos de los señores de los huertos tienen o han tenido otros trabajos que no tienen que ver con la agricultura, pero muchos han manejado, en paralelo al huerto, sus fincas comerciales, donde había que aplicar otros valores "para hacer la peseta". La sustitución de los valores "tradicionales" por los valores "modernos" ha venido en los pueblos acompañada de un rodillo cultural de desprecio y humillación, que se reforzó con la modernización de los sesenta, pero que venía ya de la Ilustración, las privatizaciones de tierras comunales y el ataque sistemático a la cultura comunitaria (pero esto otro día). El caso es que no modernizarse era ser un atrasado y un paleto. Era vergüenza, milana bonita y todo eso. 
 
-Creo que la clave ha sido dejar pasar las expectativas de "aprovechar el tiempo". El anhelo productivista de salir de ahí mejor persona. Ahora me paseo por las alas como quien pasea por el bosque, sin folleto ni audioguía, dejando que mi cuerpo reaccione a lo que quiera reaccionar.
+Y ahora, desde una perspectiva urbana, postmoderna o como se llame, vemos que esa modernización tiene límites, fallos y consecuencias, en vez de reconocer los sitios en los que nos hayamos podido equivocar y reconocer esa cultura que hemos vilipendiado, venimos con una oleada nueva de cambios "desde arriba", o de narrativas "desde fuera", tratando de cambiarlo todo otra vez, sin que de por medio haya habido un "oye, perdona, que tenías razón, qué bochorno". 
 
+Si yo pusiese mi huerta con un cobertizo con su piscina boca abajo, sabría qué proyecto pedir y qué nota de prensa enviar, y, como soy rubia, tengo mi carrera de ciencias y hablo los lenguajes adecuados, me darían un premio a la mujer rural emprendedora y tendría el reconocimiento económico y social que no tienen estos señores. Si yo fuera ellos, estaría tremendamente resentido conmigo. 
 
-Por mi trabajo y por vivir en el sitio con las peores comunicaciones de España, suelo pasar bastantes horas muertas en ciudades intermedias. Así que he empezado a hacer esto en los benditos museos municipales, que suelen ser gratis y, por tanto, estar casi vacíos.
+Y cuando sus hijos (que alguno tiene huerta, pero sobre todo tienen el tractor grande, la finca grande donde no hay piscina que valga) se cagan en los wokes como yo y llevan el tractor con la banderita de España, porque ya está bien, la verdad que lo entiendo. En realidad, desde distintos sitios, cada uno hemos hecho lo que nos dijeron: ellos, los nietos de los que se quedaron, obedecieron en crecer y en endeudarse, en comprar lo que dice el ingeniero que hay que comprar, rellenar los papeles que dice Europa que hay que rellenar, y cortar toda relación con la herencia cultural que les tocaba y les habían dicho ya no sirve; yo, nieta de los que se fueron, obedecí en estudiar algo que me permitiera sobrevivir solo a costa de lo que siempre llevo conmigo. Estudiar, cuanto más mejor, cosas que nunca me hubiese enseñado mi abuela, con la promesa de que toda esa información sería útil a la sociedad, que a cambio me mantendría y reconocería como miembro de provecho. 
 
-¿Para qué voy a pasar ese rato sentada en un bar haciendo scroll si puedo estar paseándome entre cuadros de paisajes de los Picos de Europa del siglo XIX (que no hacen daño a nadie) o por la interpretación neopaisana de una chica de 25 respecto a la mantelería de su abuela?
+En este sentido, no creo que sea yo quien tiene que pedir disculpas. Creo que, en un mundo tan enmarañado, poliédrico, multinivel y bla, bla, bla, no hay nadie que esté en su casa pensando "pues debería pedir disculpas por esto", pero la herida está abierta. Para el señor de la piscina boca abajo, para su hijo con el Massey Ferguson con la banderita. 
 
-Al retirar la exigencia que supone tratar de entender a esa chica de 25, tratar de ser tan sofisticada como el comisario que la ha elegido para estar allí, he podido empezar a disfrutarla.
+Cada vez menos gente conserva el tipo de conocimiento, el tipo de cultura que hay detrás de la piscina boca abajo. Creo que es necesario que haya quien la recoja, la impulse, le añada aquello que pueda servir de lo que hemos aprendido en estas décadas. Mi vida, en parte, trata de eso, y creo que está bien. Lo que querría es repartir el reconocimiento que supone y que no fuera desde la romantización, sino de una responsabilidad real. [En esta línea, cabe reconocer la paradoja de que el señor de la piscina boca abajo no tenga nombre, porque no me he atrevido a tratar de explicarle de qué estoy hablando, y no sé si tengo su permiso. Ahora que ya lo he escrito, espero poder enfrentarme mejor a mis miedos y, en el futuro, editar.]
 
-El otro día, en vez de hacer tiempo en Atocha, fui al Prado, y decidí desde el principio renunciar a verlo todo (en esa dinámica en la que al principio voy súper interesada en leer todas las cartelas y, al cabo de una hora, estoy tan sobrestimulada que le doy un vistazo a toda la sala del Siglo XVII holandés y digo que ya estaría). Iba pensando únicamente en que me apetecía ver las pinturas negras de Goya. De hecho, quería ver unos dibujos previos para tratar de copiarlos para mi casa, y resulta que no estaban ahí. Creo que están en el Reina.
+Me pregunto qué huertas harán sus hijos, los de los tractores, cuando se jubilen. 
 
-Fui a ver lo que quería ver y el resto del tiempo me dediqué a pasear. Dejé que me impresionara lo que me tenía que impresionar. Me senté un rato cuando algo me daba más curiosidad (o cuando me dolían los pies) y me fui cuando la neblina dejó de hacerlo interesante. Como en un bosque no le vi sentido a verlo todo, a identificar cada especie ni a preguntarme por qué está aquí este roble milenario. Disfruté de ser un animalillo caminando entre los árboles y me fui.
-
-
-Hay algo que se me gira internamente en situaciones en las que puedo renunciar al control y, a la vez, seguir sintiéndome segura. Algo que pasa a verse desde otro prisma. La luz cambia, la densidad del aire cambia. Me pregunto en qué más sitios podría dejar de intentar entrar en clubs cuyas ventajas están mayoritariamente en mi cabeza.
+*Digo señores porque son casi todos señores. Las señoras hacen su propio upcycling, pero no en el huerto
